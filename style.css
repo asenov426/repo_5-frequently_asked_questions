@@ -28,7 +28,7 @@ article {
     flex-direction: column;
 }
 
-button {
+.btn {
     background: none;
     border: none;  
 }
