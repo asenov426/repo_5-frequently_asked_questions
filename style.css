@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    background-color: lightgrey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+}
+
+article {
+    display: flex;
+    align-items: space-between;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+button {
+    background: none;
+    border: none;  
+}
+
+ion-icon {
+    font-size: 20px;
+}
+
+.nonvisible {
+    display: none;
+}
